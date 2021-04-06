@@ -1,0 +1,31 @@
+.Sidebar_chat{
+    padding-left: 1%;
+    width: 98%;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+}
+.Sidebar_chat:hover{
+    background-color: #ededed
+}
+.Sidebar_Container{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.Sidebar_Container>h4{
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.Sidebar_Container>p{
+    margin-left: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

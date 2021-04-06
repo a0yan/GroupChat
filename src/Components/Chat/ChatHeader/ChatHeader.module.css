@@ -1,0 +1,19 @@
+.ChatHeader{
+display: flex;
+justify-content:flex-start;
+align-items: center;
+padding-top: 1.3%;
+background-color: #ededed;
+border-bottom: 1.5px solid lightgray;
+padding-left: 1%;
+}
+.Container{
+    flex:0.90;
+    flex-direction: column;
+    margin-left: 2.5%;
+}
+.Options{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.08;
+}

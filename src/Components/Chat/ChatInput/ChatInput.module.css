@@ -1,0 +1,44 @@
+.ChatInput{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: relative;
+    top:2px;
+    height:6%;
+}
+.Inputfield{
+    outline-width: 0;
+    border: none;
+    flex: 0.90;
+    border-radius: 30px;
+    margin-top: 1%;
+    height: 55%;
+    padding:1%;
+    resize: none;
+    overflow:hidden;
+}
+button{
+    border: none;
+    outline: none;
+}
+.Mic,.emoji_button,.Clip,.Send{
+    color:#999;
+    cursor: pointer;
+}
+.Clip{
+    transform: scaleX(-1) rotate(320deg);      
+}
+.Mic{
+    margin-right: 1%;
+}
+.emoji_button{
+    position: relative;
+    left: 1%;
+}
+.emojis{
+    display: grid;
+    background-color: white;
+    z-index: 2;
+    width:50%;
+    
+}

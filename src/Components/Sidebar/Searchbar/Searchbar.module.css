@@ -1,0 +1,21 @@
+.Searchbar{
+    width: 100%;
+    height: 5%;
+    background-color:#ededed;
+    display: flex;
+    align-items: center;
+}
+.SearchContainer{
+    display: flex;
+    border-radius: 20px;
+    height: 80%;
+    margin: 0 2%;
+    width: 95%;
+    background-color: white;
+}
+.Searchfield{
+    width: 70%;
+    height: 80%;
+    border: none;
+    outline-width: 0;
+}

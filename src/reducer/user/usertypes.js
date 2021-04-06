@@ -1,0 +1,3 @@
+const ADD_USER='ADD_USER'
+const SEARCH='SEARCH'
+export {ADD_USER,SEARCH}

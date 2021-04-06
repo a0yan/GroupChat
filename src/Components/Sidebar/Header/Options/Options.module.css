@@ -1,0 +1,8 @@
+.Options{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.Options>*{
+    padding: 2px;
+}
